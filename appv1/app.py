@@ -18,5 +18,17 @@ root = tree.getroot()
 body = root.find("body")
 outlines = body.findall("outline")
 
-for outline in outlines:
-    print(outline.get("text"))
+for index, outline in enumerate(outlines):
+    outlines.sort(key=lambda x: x.get("text"))
+    print(f"{index + 1}. {outline.get('text')}")
+
+# In the "freshrss.opml.xml" file, find the <body> tag. Under the <body> element, there are several <outline> elements. Print their text attribute contents of all <outline> elements.
+tree = ET.ElementTree(ET.fromstring(freshrss_opml_contents))
+root = tree.getroot()
+
+body = root.find("body")
+outlines = body.findall("outline")
+
+for index, outline in enumerate(outlines):
+    outlines.sort(key=lambda x: x.get("text"))
+    print(f"{index + 1}. {outline.get('text')}")
