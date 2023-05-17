@@ -11,5 +11,12 @@ freshrss_opml_path = os.path.join(feed_files_folder, "freshrss.opml.xml")
 with open(freshrss_opml_path) as f:
     freshrss_opml_contents = f.read()
 
-# if feedly_opml_contents and freshrss_opml_contents:
-#     print("Both OPML files were read successfully.")
+# In the "feedly.opml" file, find the <body> tag. Under the <body> element, there are several <outline> elements. Print their text attribute contents of all <outline> elements.
+tree = ET.ElementTree(ET.fromstring(feedly_opml_contents))
+root = tree.getroot()
+
+body = root.find("body")
+outlines = body.findall("outline")
+
+for outline in outlines:
+    print(outline.get("text"))
