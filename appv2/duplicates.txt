@@ -1,0 +1,8 @@
+<outline type="rss" text="SecurityWeek" title="SecurityWeek" xmlUrl="http://feeds.feedburner.com/Securityweek" htmlUrl="https://www.securityweek.com/"/>
+<outline type="rss" text="Comics – StoneToss" title="Comics – StoneToss" xmlUrl="https://stonetoss.com/comic/feed/" htmlUrl="https://stonetoss.com"/>
+<outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/"/>
+<outline type="rss" text="WordPress Websites For Businesses, Artists, Bloggers Shops And More" title="WordPress Websites For Businesses, Artists, Bloggers Shops And More" xmlUrl="https://themes.artbees.net/feed/" htmlUrl="https://themes.artbees.net"/>
+<outline type="rss" text="GamingOnLinux Latest Articles" title="GamingOnLinux Latest Articles" xmlUrl="http://www.gamingonlinux.com/article_rss.php" htmlUrl="https://www.gamingonlinux.com/"/></outline>
+<outline type="rss" text="Engadget" title="Engadget" xmlUrl="http://www.engadget.com/rss-full.xml" htmlUrl="http://www.engadget.com"/>
+<outline type="rss" text="Threatpost" title="Threatpost" xmlUrl="http://threatpost.com/feed" htmlUrl="https://threatpost.com"/>
+<outline type="rss" text="Patriots.win Feed: Stickied Posts" title="Patriots.win Feed: Stickied Posts" xmlUrl="https://patriots.wiki/reader/feed.rss" htmlUrl="https://patriots.wiki/reader/feed.rss"/>
